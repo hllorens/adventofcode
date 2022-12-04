@@ -31,4 +31,4 @@ elves_s=sorted(elves, key=lambda x: x[1])
 print(f"max elf {elves_s[len(elves)-1][0]} max_cal={elves_s[len(elves)-1][1]}")
 top_3_elves=elves_s[-3:]
 print(top_3_elves)
-
+print("total top 3 is "+str(top_3_elves[0][1]+top_3_elves[1][1]+top_3_elves[2][1]))
